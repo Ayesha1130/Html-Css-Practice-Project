@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(248, 245, 61);
+}
+.navbar {
+  background-color: rgb(50, 168, 82);
+  height: 80px;
+  text-align: center;
+  font-size: 24px;
+}
+.navbar h1 {
+  font-family: "Edwardian Script ITC Regular";
+  font-size: 60px;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(57, 189, 87);
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(2, 183, 20, 0.2),
+    0 6px 20px 0 rgba(180, 7, 7, 0.19);
+}
+.recipe1 img {
+  box-shadow: 0 4px 8px 0 rgba(255, 106, 0, 0.2),
+    0 6px 20px 0 rgba(180, 7, 7, 0.19);
+  height: 600px;
+  width: 80%;
+}
+.recipe1 h3 {
+  text-align: left;
+}
+.recipe1 ul li {
+  text-align: left;
+  display: inline;
+}
+.pera p {
+  color: rgb(11, 11, 11);
+  width: 400px;
+}
+.container img {
+  float: inline-end;
+  width: 40%;
+  height: 200px;
+}
+.container2 img {
+  float: inline-end;
+  width: 40%;
+  height: 300px;
+}
+.container3 img {
+  float: inline-end;
+  width: 40%;
+  height: 250px;
+}
+
+.container4 img {
+  float: inline-end;
+  width: 40%;
+  height: 200px;
+}
+footer {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.963);
+}
